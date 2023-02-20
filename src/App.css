@@ -1,0 +1,73 @@
+.start-btn {
+  background-color: rgb(10, 171, 10);
+  color: white;
+  padding: 10px;
+  width: max-content;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.home-bg {
+  background-image: url(https://thumbs.dreamstime.com/b/happy-group-friends-family-dog-cat-jumping-together-sunset-water-reflection-30199342.jpg);
+  height: 92vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.login-bg {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/737/799/small_2x/online-registration-illustration-concept-free-vector.jpg);
+  height: 92vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.signup-bg {
+  background-image: url(https://thumbs.dreamstime.com/b/online-registration-sign-up-concept-young-people-signing-login-to-account-user-interface-secure-password-modern-vector-194944767.jpg);
+  height: 92vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.signup-profile-pic-container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.signup-profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid grey;
+  object-fit: cover;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: rgb(10, 171, 10);
+  background: white;
+  cursor: pointer;
+  z-index: 99;
+  background: none;
+}
+
+#navbar {
+  background-color: rgb(4, 82, 121) !important;
+}
+
+@media (max-width: 770px) {
+  .container-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
